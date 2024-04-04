@@ -5,7 +5,7 @@ import java.util.Scanner;
 // How can you find a string in a text file in Java?
 public class FindStringInFile {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws FileNotFoundException {
     System.out.println(findStringInFile("Path...","string"));
   }
 
